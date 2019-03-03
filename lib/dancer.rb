@@ -6,6 +6,8 @@ class Dancer
  
   attr_accessor :name
  
+  extend MetaDancing
+ 
   def initialize(name)
     @name = name
   end
